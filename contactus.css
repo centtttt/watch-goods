@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    height: 900px;
+}
+
+form{
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 25px;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgb(160, 160, 160);
+}
+
+#formContactUs>h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(83, 83, 83);
+}
+
+select{
+    border-radius: 30px;
+    width: 20%;
+    padding-inline: 0.3rem;
+    height: 25px;
+}
+  
+.formContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.formContent>input{
+    height: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    border-radius: 30px;
+    padding-inline: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+
+.formContentMessage{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.formContentMessage>textarea{
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    padding-inline: 1rem;
+    padding-top: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#agreement{
+    align-items: center;
+    column-gap: 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#agree>input{
+    width: 1rem;
+    height: 1rem;
+}
+
+#submitButton{
+    background-color: #484848;
+    margin-top: 1rem;
+    width: 50%;
+    height: 10%;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#submitButton:hover{
+    background-color: #000000;
+    transition: 300ms;
+}

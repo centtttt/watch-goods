@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+.badan{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.badan>h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.locationsBack{
+    background-color: rgb(78, 83, 83);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 40px;  
+}
+
+.locationsBack>h2{
+    color: bisque;
+}
+
+.locationsImg{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.locationsText{
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 188px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.locationsText2{
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 175px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.locationsText3{
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 165px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.locationsImg>img{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}   
+
+.locationsImg:hover{
+    box-shadow: 5px 5px gray;
+    transition: 500ms;
+}
