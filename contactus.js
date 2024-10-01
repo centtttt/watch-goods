@@ -36,5 +36,5 @@ document.getElementById('formContactUs').addEventListener('submit', (event) => {
     }
 
     alert('Your Message Has Been Forwarded. Please Wait Until You Received Our Responses !')
-    window.location.href = '/home.html'
+    window.location.href = '/index.html'
 })
